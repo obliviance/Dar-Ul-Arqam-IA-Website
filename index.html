@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dar-Ul-Arqam - Home</title>
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script>
+      function toTop () {
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <a id="top"></a>
+    <div id="navbar">
+      <img src="./assets/images/Dar-Ul-Arqam Logo V2.jpg" id="logo">
+      <a href="./index.html" class="navlink">HOME</a>
+      <a href="./about.html" class="navlink">ABOUT</a>
+      <a href="./curriculum.html" class="navlink">CURRICULUM</a>
+      <a href="./calendar.html" class="navlink">CALENDAR</a>
+      <a href="./resources.html" class="navlink">RESOURCES</a>
+      <a href="./contact.html" class="navlink">CONTACT</a>
+    </div>
+    <div id="title-container">
+      <!--
+      Location of image online:
+      https://dirassat.files.wordpress.com/2013/02/81aaa-03fountainmosaicwithislamicpat.jpg
+      -->
+      <img src="./assets/images/bookshelfPhoto.jpg" id="title-image">
+      <span id="text-hero">Dar-Ul-Arqam</span>
+    </div>
+    <p id="hero-text">Welcome to Dar-Ul-Arqam, <br>an Arabic language <br>school in Barrhaven, Ottawa.</p>
+    <img src="./assets/images/tapestryPhoto.jpg" id="classpic">
+
+    <button id="left-button" onclick="window.location.href = './about.html';">Learn More</button>
+
+    <button id="right-button" onclick="window.location.href = './contact.html';">Contact</button>
+    <div id="footer">
+      <div id="directory">
+        <a href="./index.html" id="leftfooternav">HOME</a>
+        <a href="./about.html" class="footernav">ABOUT</a>
+        <a href="./curriculum.html" class="footernav">CURRICULUM</a>
+        <a href="./calendar.html" class="footernav">CALENDAR</a>
+        <a href="./resources.html" class="footernav">RESOURCES</a>
+        <a href="./contact.html" class="footernav">CONTACT</a>
+        <button id="to-top" onclick="toTop()">⮝</button>
+      </div>
+      <br>
+      <span id="copyright">© Dar Ul Arqam 2019</span>
+      <span id="madeby"> | Made By: Awwab Mahdi</span>
+    </div>
+  </body>
+</html>

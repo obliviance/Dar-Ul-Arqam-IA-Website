@@ -1,0 +1,170 @@
+#navbar {
+  display: block;
+  text-align: center;
+  padding: 2.5%;
+  justify-content: space-between;
+  display: flex;
+  margin-left: 30%;
+  margin-right: 1.2%;
+}
+
+.navlink {
+  text-decoration: none;
+  color: black;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 180%;
+  transition: 0.5s;
+}
+
+#logo {
+  display: block;
+  position: absolute;
+  top: 2%;
+  left: 1.2%;
+  width: 30%;
+}
+
+#footer {
+  padding: 50px;
+  background-color: aquamarine;
+  margin-top: 50px;
+}
+
+.footernav {
+  text-decoration: none;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+#leftfooternav {
+  margin-right: 1%;
+  text-decoration: none;
+  color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 120%;
+}
+
+#to-top {
+  float: right;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 200%;
+  border-radius: 50px;
+  border: 0;
+  cursor: pointer;
+  transition: 0.5s;
+  outline: none;
+}
+
+#to-top:hover {
+  background-color: aquamarine;
+}
+
+#copyright {
+  font-family: "Garamond";
+  font-size: 110%;
+}
+
+#madeby {
+  font-family: "Garamond";
+  font-size: 110%;
+}
+
+#text-hero {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: rgba(160, 82, 45, 0.8);
+}
+
+#title-container {
+  position: relative;
+  text-align: center;
+  height: 600px;
+  overflow: hidden;
+}
+
+#title-image {
+  width: 100%;
+}
+
+a {
+	position: relative;
+}
+
+a:before {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	visibility: visible;
+	transform: scaleX(0);
+	transition: all 0.3s;
+}
+
+a:hover:before {
+	visibility: visible;
+	transform: scaleX(0.98);
+}
+
+#blurb {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 120%;
+  text-align: center;
+  padding: 1%;
+  border: 2px solid black;
+  background-color: azure;
+}
+
+#files-title {
+  text-align: center;
+  font-family: "Tahoma";
+  font-size: 175%;
+}
+
+.files {
+  margin-bottom: 3%;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 110%;
+  text-decoration: none;
+}
+
+.files::before {
+  bottom: 4px;
+}
+
+#files-container {
+  display: block;
+  text-align: center;
+  padding: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid cyan;
+  font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+  font-size: 120%;
+}
+
+table {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Dar-Ul-Arqam - Calendar</title>
+    <link href="./css/calendar.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script>
+      function toTop () {
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <div id="navbar">
+      <img src="./assets/images/Dar-Ul-Arqam Logo V2.jpg" id="logo">
+      <a href="./index.html" class="navlink">HOME</a>
+      <a href="./about.html" class="navlink">ABOUT</a>
+      <a href="./curriculum.html" class="navlink">CURRICULUM</a>
+      <a href="./calendar.html" class="navlink">CALENDAR</a>
+      <a href="./resources.html" class="navlink">RESOURCES</a>
+      <a href="./contact.html" class="navlink">CONTACT</a>
+    </div>
+    <div id="title-container">
+      <!--
+      Location of image online:
+      https://aboutislam.net/wp-content/uploads/2017/09/optimized-hijri-calendar-12-months.jpg
+      -->
+      <img src="./assets/images/calendarHeader.jpg" id="title-image">
+      <span id="text-hero">Calendar</span>
+    </div>
+    <p id="blurb">This calendar gives the dates for all the Dar-Ul-Arqam sessions and holidays. <br> Please remember to bookmark and refer to the calendar before coming to class, to make sure it's not a day off!</p>
+    <h2 id="dates-title">IMPORTANT DATES</h2>
+    <div id="dates-container">
+      <span class="dates" id="left-date">Eid Ul Fitr Class Party <br> May 23 - 25</span>
+      <span class="dates">Ramadan <br> April 23 - May 25</span>
+      <span class="dates" id="right-date">Eid Ul Adha <br> July 30 - August 1</span>
+    </div>
+    <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%237986CB&amp;ctz=America%2FToronto&amp;src=M2p1dDE1YTd1dmJuZ2JkbDZldWY0NTdxZTRAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4uaXNsYW1pYyNob2xpZGF5QGdyb3VwLnYuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4uY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23DD4477&amp;color=%231F753C&amp;color=%239F3501" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    <div id="footer">
+      <div id="directory">
+        <a href="./index.html" id="leftfooternav">HOME</a>
+        <a href="./about.html" class="footernav">ABOUT</a>
+        <a href="./curriculum.html" class="footernav">CURRICULUM</a>
+        <a href="./calendar.html" class="footernav">CALENDAR</a>
+        <a href="./resources.html" class="footernav">RESOURCES</a>
+        <a href="./contact.html" class="footernav">CONTACT</a>
+        <button id="to-top" onclick="toTop()">⮝</button>
+      </div>
+      <br>
+      <span id="copyright">© Dar Ul Arqam 2019</span>
+      <span id="madeby"> | Made By: Awwab Mahdi</span>
+    </div>
+  </body>
+</html>
